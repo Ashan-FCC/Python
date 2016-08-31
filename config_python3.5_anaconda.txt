@@ -1,0 +1,18 @@
+#Config python 3.5
+
+conda create -n py35 python=3.5 ipykernel
+conda create -n py35 python=3.5
+source activate py35
+conda install notebook ipykernel
+ipython kernel install --user
+
+#Config python 2.7
+
+conda create -n py27 python=2.7 ipykernel
+conda create -n py27 python=2.7
+source activate py27
+conda install notebook ipykernel
+ipython kernel install --user
+
+#Use this for help
+ipython kernel install --help
